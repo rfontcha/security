@@ -26,7 +26,7 @@ This lab assumes you have:
 |--|------------------------------------------------------------|-------------|
 | 1 | Create a basic Data Redaction policy | 5 minutes |
 | 2 | Contextualize an existing Data Redaction policy | 5 minutes |
-| 3 | (Optional) Drop the Data Redaction policy | <5 minutes |
+| 3 | Drop the Data Redaction policy | <5 minutes |
 
 ## Task 1: Create a basic Data Redaction policy
 
@@ -58,9 +58,9 @@ This lab assumes you have:
 
     - Now, let's have a look **on your Glassfish App**
 
-        - Open a Web Browser at the URL *`https://dbsec-lab:8080/hr_prod_pdb1`*
+        - Open a Web Browser at the URL *`http://dbsec-lab:8080/hr_prod_pdb1`*
 
-            **Notes:** If you are not using the remote desktop you can also access this page by going to *`https://<YOUR_DBSEC-LAB_VM_PUBLIC_IP>:8080/hr_prod_pdb1`*
+            **Notes:** If you are not using the remote desktop you can also access this page by going to *`http://<YOUR_DBSEC-LAB_VM_PUBLIC_IP>:8080/hr_prod_pdb1`*
     
         - Login to the HR Application as *`hradmin`* with the password "*`Oracle123`*"
 
@@ -164,7 +164,7 @@ This lab assumes you have:
 
         **Note**: Because you're using the only authorized app, you can see the sensitive data now!
 
-## Task 3: (Optional) Drop the Data Redaction policy
+## Task 3: Drop the Data Redaction policy
 
 1. When you are finished with the lab, you can drop the redaction policy
 
@@ -227,4 +227,4 @@ Video:
 ## Acknowledgements
 - **Author** - Hakim Loumi, Database Security PM
 - **Contributors** - Rene Fontcha
-- **Last Updated By/Date** - Hakim Loumi, Database Security PM - January 2023
+- **Last Updated By/Date** - Hakim Loumi, Database Security PM - March 2023

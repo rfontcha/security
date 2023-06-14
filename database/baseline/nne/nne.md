@@ -28,7 +28,7 @@ This lab assumes you have:
 | 1 | Check the current network configuration | <5 minutes |
 | 2 | Generate and capture SQL traffic | 5 minutes |
 | 3 | Enable the network encryption | 5 minutes |
-| 4 | (Optional) Disable the network encryption | <5 minutes |
+| 4 | Disable the network encryption | <5 minutes |
 
 ## Task 1: Check the current network configuration
 
@@ -107,9 +107,9 @@ This lab assumes you have:
 
         **Notes:** We will extract all lines containing an email or something similar (see the egrep command)
 
-    - In parallel, open a web browser window to *`https://dbsec-lab:8080/hr_prod_pdb1`* to access to your Glassfish App
+    - In parallel, open a web browser window to *`http://dbsec-lab:8080/hr_prod_pdb1`* to access to your Glassfish App
     
-        **Notes:** If you are not using the remote desktop you can also access this page by going to *`https://<YOUR_DBSEC-LAB_VM_PUBLIC_IP>:8080/hr_prod_pdb1`*
+        **Notes:** If you are not using the remote desktop you can also access this page by going to *`http://<YOUR_DBSEC-LAB_VM_PUBLIC_IP>:8080/hr_prod_pdb1`*
 
     - Perform the following steps:
 
@@ -226,7 +226,7 @@ You will enable SQL\*Net encryption with the *`REQUESTED`* value for *`SQLNET.EN
 6. When you have seen the effect of the network encryption, use "*`[Ctrl]+C`* " to stop the script
 
 
-## Task 4: (Optional) Disable the network encryption
+## Task 4: Disable the network encryption
 
 1. When you have completed the lab, you can return the Native Network Encryption to the default settings
 
@@ -260,4 +260,4 @@ Technical Documentation:
 ## Acknowledgements
 - **Author** - Hakim Loumi, Database Security PM
 - **Contributors** - Richard Evans, Rene Fontcha
-- **Last Updated By/Date** - Hakim Loumi, Database Security PM - January 2023
+- **Last Updated By/Date** - Hakim Loumi, Database Security PM - March 2023

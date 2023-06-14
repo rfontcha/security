@@ -35,7 +35,7 @@ This lab assumes you have:
 |03| Collect audit data and generate alerts | 20 minutes|
 |04| Assess the security of your database configurations and users | 20 minutes|
 |05| Discover and mask sensitive data | 30 minutes|
-|06| (Optional) Reset Oracle Data Safe configuration | <10 minutes|
+|06| Reset Oracle Data Safe configuration | <10 minutes|
 
 ## Task 1: Register an on-premise Oracle Database
 
@@ -47,7 +47,7 @@ To use a database with Oracle Data Safe, you first need to register it with Orac
 
     ![Data Safe](./images/ds-001.png "Data Safe")
  
-3. Then, click on "**Data Safe**"
+3. Then, on "**Data Safe**" section, click on "**Target Databases**"
 
     ![Data Safe](./images/ds-002.png "Data Safe")
 
@@ -74,10 +74,10 @@ To use a database with Oracle Data Safe, you first need to register it with Orac
 
 9. Now, let's active it
 
-    - Click [**Download install Bundle**] to download the zip file onto your local machine and enter a password (here *`Oracle12345!`*)
+    - Click [**Download install Bundle**] to download the zip file onto your local machine and enter a password of at least 15 characters (here *`Oracle12345678!`*)
 
         ````
-        <copy>Oracle12345!</copy>
+        <copy>Oracle12345678!</copy>
         ````
 
        ![Data Safe](./images/ds-006.png "Data Safe")
@@ -118,7 +118,7 @@ To use a database with Oracle Data Safe, you first need to register it with Orac
 
                ![Data Safe](./images/ds-009.png "Data Safe")
 
-        - Install Data Safe On-Premises connector (enter the password defined for the zip file above - here *`Oracle12345!`*)
+        - Install Data Safe On-Premises connector (enter the password defined for the zip file above - here *`Oracle12345678!`*)
 
             ````
             <copy>
@@ -129,7 +129,7 @@ To use a database with Oracle Data Safe, you first need to register it with Orac
             ````
 
             ````
-            <copy>Oracle12345!</copy>
+            <copy>Oracle12345678!</copy>
             ````
 
                ![Data Safe](./images/ds-010.png "Data Safe")
@@ -1793,7 +1793,7 @@ Data Discovery helps you find sensitive data in your databases and Data Masking 
     ![Data Safe](./images/ds-232.png "Data Safe")
 
 
-## Task 6: (Optional) Reset Oracle Data Safe configuration
+## Task 6: Reset Oracle Data Safe configuration
 
 1. From the Data Safe console
 
@@ -1895,4 +1895,4 @@ Video:
 ## Acknowledgements
 - **Author** - Hakim Loumi, Database Security PM
 - **Contributors** - Jody Glover, Bettina Schaeumer, Rene Fontcha
-- **Last Updated By/Date** - Hakim Loumi, Database Security PM - January 2023
+- **Last Updated By/Date** - Hakim Loumi, Database Security PM - March 2023
